@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Online</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="navbar">
+            <h1>Mi Tienda Online</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <aside class="sidebar">
+            <h2>Categorías</h2>
+            <ul>
+                <li><a href="#">Laptops</a></li>
+                <li><a href="#">Smartphones</a></li>
+                <li><a href="#">Tablets</a></li>
+                <li><a href="#">Accesorios</a></li>
+            </ul>
+            <h2>Filtros</h2>
+            <div class="filter">
+                <h3>Precio</h3>
+                <label><input type="checkbox"> Menos de $300.000</label>
+                <label><input type="checkbox"> $300.000 - $500.000</label>
+                <label><input type="checkbox"> Más de $500.000</label>
+            </div>
+            <div class="filter">
+                <h3>Marca</h3>
+                <label><input type="checkbox"> AMD</label>
+                <label><input type="checkbox"> Intel</label>
+                <label><input type="checkbox"> Nvidia</label>
+            </div>
+        </aside>
+
+        <main class="product-grid">
+            <article class="product-card">
+                <div class="img-card"></div>
+                <img src="./assets/fotos/PC-01.jpeg" alt="PC 1">
+                <h4>Notebook Dell Latitude 7320</h4>   
+                <p class="description"> Intel Core i7-1185G7 16GB RAM 256GB SSD AMD Ryzen 7</p>
+                <p class="price">Precio: $<span class="precio-inicial">400000</span></p>
+                <div class="quantity-control">
+                    <p>Cantidad: 
+                        <span class="cantidad">0</span>
+                        <button class="increase">+</button>
+                        <button class="decrease">-</button>
+                    </p>
+                </div>
+                <p class="total">Total: $<span class="valor-total">0</span></p>
+                <button class="buy-button">Comprar</button>
+            </article>
+
+            <article class="product-card">
+                <div class="img-card"></div>
+                <img src="./assets/fotos/PC-02.jpeg" alt="PC 2">
+                <h4>Dell Latitude 5411</h4>
+                <p class="description">Intel Core i7-10850H NVIDIA Geforce MX250 16GB RAM</p>
+                <p class="price">Precio: $<span class="precio-inicial">350000</span></p>
+                <div class="quantity-control">
+                    <p>Cantidad: 
+                        <span class="cantidad">0</span>
+                        <button class="increase">+</button>
+                        <button class="decrease">-</button>
+                    </p>
+                </div>
+                <p class="total">Total: $<span class="valor-total">0</span></p>
+                <button class="buy-button">Comprar</button>
+            </article>
+
+            <article class="product-card">
+                <div class="img-card"></div>
+                <img src="./assets/fotos/PC-03.jpeg" alt="PC 3">
+                <h4>Macbook Retina 2019 15,4"</h4>
+                <p class="description"> Intel Core i9 2,3Ghz AMD RADEON PRO 560X 16GB RAM 512TB SSD</p>
+                <p class="price">Precio: $<span class="precio-inicial">600000</span></p>
+                <div class="quantity-control">
+                    <p>Cantidad: 
+                        <span class="cantidad">0</span>
+                        <button class="increase">+</button>
+                        <button class="decrease">-</button>
+                    </p>
+                </div>
+                <p class="total">Total: $<span class="valor-total">0</span></p>
+                <button class="buy-button">Comprar</button>
+            </article>
+
+            <article class="product-card">
+                <div class="img-card"></div>
+                <img src="./assets/fotos/PC-04.jpeg" alt="PC 4">
+                <h4>HP Elitebook 655 15,6"</h4>
+                <p class="description">G10 Ryzen 7 Pro 32GB RAM 256GB SSD</p>
+                <p class="price">Precio: $<span class="precio-inicial">450000</span></p>
+                <div class="quantity-control">
+                    <p>Cantidad: 
+                        <span class="cantidad">0</span>
+                        <button class="increase">+</button>
+                        <button class="decrease">-</button>
+                    </p>
+                </div>
+                <p class="total">Total: $<span class="valor-total">0</span></p>
+                <button class="buy-button">Comprar</button>
+            </article>
+
+            <article class="product-card">
+                <div class="img-card"></div>
+                <img src="./assets/fotos/PC-05.jpeg" alt="PC 5">
+                <h4>Notebook Dell Precision 5550</h4>
+                <p class="description">Intel Core i7-10750H 64GB RAM NVIDIA QUADRO T1000 2.5TB SSD</p>
+                <p class="price">Precio: $<span class="precio-inicial">250000</span></p>
+                <div class="quantity-control">
+                    <p>Cantidad: 
+                        <span class="cantidad">0</span>
+                        <button class="increase">+</button>
+                        <button class="decrease">-</button>
+                    </p>
+                </div>
+                <p class="total">Total: $<span class="valor-total">0</span></p>
+                <button class="buy-button">Comprar</button>
+            </article>
+
+            <article class="product-card">
+                <div class="img-card"></div>
+                <img src="./assets/fotos/PC-06.jpeg" alt="PC 6">
+                <h4>Dell Precision 7530 </h4>
+                <p class="description">Intel Core i7 32GB RAM NVIDIA QUADRO P1000 2.5TB SSD</p>
+                <p class="price">Precio: $<span class="precio-inicial">480000</span></p>
+                <div class="quantity-control">
+                    <p>Cantidad: 
+                        <span class="cantidad">0</span>
+                        <button class="increase">+</button>
+                        <button class="decrease">-</button>
+                    </p>
+                </div>
+                <p class="total">Total: $<span class="valor-total">0</span></p>
+                <button class="buy-button">Comprar</button>
+            </article>
+
+            <article class="product-card">
+                <div class="img-card"></div>
+                <img src="./assets/fotos/PC-07.jpeg" alt="PC 7">
+                <h4>Asus Vivobook 15</h4>
+                <p class="description"> Intel Core i3 12GB NVIDIA Geforce MX130 256GB SSD</p>
+                <p class="price">Precio: $<span class="precio-inicial">520000</span></p>
+                <div class="quantity-control">
+                    <p>Cantidad: 
+                        <span class="cantidad">0</span>
+                        <button class="increase">+</button>
+                        <button class="decrease">-</button>
+                    </p>
+                </div>
+                <p class="total">Total: $<span class="valor-total">0</span></p>
+                <button class="buy-button">Comprar</button>
+            </article>
+
+            <article class="product-card">
+                <div class="img-card"></div>
+                <img src="./assets/fotos/PC-08.jpeg" alt="PC 8">
+                <h3>Notebook Dell Inspiron</h3>
+                <p class="description">Intel Core i7 11th Gen 16GB RAM 256GB SSD</p>
+                <p class="price">Precio: $<span class="precio-inicial">280000</span></p>
+                <div class="quantity-control">
+                    <p>Cantidad: 
+                        <span class="cantidad">0</span>
+                        <button class="increase">+</button>
+                        <button class="decrease">-</button>
+                    </p>
+                </div>
+                <p class="total">Total: $<span class="valor-total">0</span></p>
+                <button class="buy-button">Comprar</button>
+            </article>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2025 Mi Tienda Online. Todos los derechos reservados.</p>
+            <div class="footer-links">
+                <a href="#">Términos y condiciones</a>
+                <a href="#">Política de privacidad</a>
+                <a href="#">Contacto</a>
+            </div>
+            
+            <div class="social-media">
+                <h3>Síguenos en redes sociales</h3>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            
+            <div class="contact-form">
+                <h3>Contáctanos</h3>
+                <form>
+                    <div class="form-group">
+                        <input type="text" placeholder="Nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Mensaje" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Enviar</button>
+                </form>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
